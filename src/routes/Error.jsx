@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Formulario = () => {
+const Error = () => {
   return (
     <div>
-      
+      erro
     </div>
   )
 }
 
-export default Formulario
+export default Error
+erro
