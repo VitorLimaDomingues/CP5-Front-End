@@ -5,8 +5,12 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <>
-      <section className="header flex justify-between items-center py-4 px-8 text-[#ff00b2] text-3xl font-bold tracking-wide">
-        <img src={Image} alt="logo" />
+      <section className="header flex justify-between items-center py-4 px-8">
+        
+        <div className="flex item-center gap-4">
+            <img src={Image} alt="logo" /> 
+            <h1 className="text-5xl font-bold tracking-wide text-[#ff00b2] relative top-25">Melodia</h1>
+        </div>
         
         <nav className='flex items-center gap-x-8 text-[#ff00b2] text-3xl font-bold tracking-wide'>
           <Link to="/" className="text-[#e60099]">Home</Link>
