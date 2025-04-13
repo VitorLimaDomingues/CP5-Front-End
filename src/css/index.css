@@ -1,22 +1,15 @@
 @import "tailwindcss";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     height: 100vh;
-    margin: 0;
     background: linear-gradient(to bottom ,#1a002b, #2a0045, #5f00a5);
 }
 
 footer {
     display: flex;
-    margin-top: 539px;
     background: linear-gradient(#1a002b, #0e0015);
     color: white;
     text-align: center;
-    height: 15vh;
+    height: 12vh;
     width: 100%;
 }
