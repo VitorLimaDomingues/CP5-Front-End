@@ -1,15 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 @import "tailwindcss";
 
+
 body {
-    height: 100vh;
     background: linear-gradient(to bottom ,#1a002b, #2a0045, #5f00a5);
+    font-family: 'Jura', sans-serif;
 }
 
-footer {
-    display: flex;
-    background: linear-gradient(#1a002b, #0e0015);
-    color: white;
-    text-align: center;
-    height: 12vh;
-    width: 100%;
-}
+

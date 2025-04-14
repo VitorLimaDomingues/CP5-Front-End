@@ -5,6 +5,7 @@ import Home from './routes/Home'
 import Contato from './routes/Contato'
 import Funcionalidades from './routes/Funcionalidades'
 
+
 import './css/index.css'
 
 function App() {
